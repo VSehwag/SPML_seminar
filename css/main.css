@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Comic Neue", Optima, "Helvetica Neue", "Helvetica";
+  font-size: 16px;
+  line-height: 1.5em;
+  max-width: 100%;
+  background-color: white;
+}
+
+.container {
+  margin: 10px auto 10px auto;
+  max-width: 750px;
+  padding: 10px 30px 10px 30px;
+  background: transparent;
+  box-shadow: -3px -3px 10px 0 rgba(0, 0, 0, 0.2),
+    3px 3px 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+h2 {
+  color: #990000;
+}
+
+a,
+.container a,
+i {
+  text-decoration: none;
+  color: #990000;
+}
+
+a:hover,
+i:hover {
+  color: #008dcd;
+}
+
+.logo {
+  width: 100%;
+  margin: 20px auto 20px auto;
+}
+
+.logo img {
+  width: 100%;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.talks {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 10px;
+}
+
+.talks .talk {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.clock {
+  display: inline-block;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.clock > div {
+  display: inline-block;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  grid-gap: 10px;
+  text-overflow: ellipsis;
+  padding-bottom: 5px;
+}
+
+.grid .pane img {
+  height: 125px;
+  padding: auto 0 auto 0;
+}
+
+.grid .pane .date {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.grid .pane .affiliation {
+  font-style: italic;
+}
+
+.grid .pane .droptext {
+  color: #990000;
+  margin-bottom: 3px;
+}
+
+.grid .pane .flexrow {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.grid .pane .flexrow a {
+  color: inherit;
+}
+
+.icon {
+  vertical-align: middle;
+  font-size: 1.5em;
+}
+.zoom {
+  color: #2d8cff;
+}
+
+.youtube {
+  color: red;
+}
+
+.email {
+  background-color: rgb(223, 223, 223);
+  padding: 0 0.2em 0 0.2em;
+}
