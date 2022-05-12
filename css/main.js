@@ -39,14 +39,14 @@ function initializeClock(id, endtime) {
 }
 
 // Create a new date variable for every new talk.
-const deadline1 = new Date(Date.parse("24 April 2022 16:00:00 GMT"))
+const deadline1 = new Date(Date.parse("07 June 2022 17:00:00 GMT"))
 initializeClock('clock1', deadline1);
 
-const deadline2 = new Date(Date.parse("1 May 2022 16:00:00 GMT"))
+const deadline2 = new Date(Date.parse("1 May 2022 17:00:00 GMT"))
 initializeClock('clock2', deadline2);
 
-const deadline3 = new Date(Date.parse("8 May 2022 16:00:00 GMT"))
+const deadline3 = new Date(Date.parse("8 May 2022 17:00:00 GMT"))
 initializeClock('clock3', deadline3);
 
-const deadline4 = new Date(Date.parse("15 May 2022 16:00:00 GMT"))
+const deadline4 = new Date(Date.parse("15 May 2022 17:00:00 GMT"))
 initializeClock('clock4', deadline4);
