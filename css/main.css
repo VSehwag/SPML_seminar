@@ -53,6 +53,10 @@ hr {
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
+.colored {
+  color: #990000;
+}
+
 .talks {
   display: flex;
   flex-direction: column;
@@ -84,7 +88,10 @@ hr {
 
 .grid .pane img {
   height: 125px;
+  width: 125px;
   padding: auto 0 auto 0;
+  border-radius: 6px;
+  object-fit: cover;
 }
 
 .grid .pane .date {
@@ -118,10 +125,12 @@ hr {
 }
 .zoom {
   color: #2d8cff;
+  opacity: 80%;
 }
 
 .youtube {
   color: red;
+  opacity: 80%;
 }
 
 .email {
