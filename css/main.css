@@ -109,6 +109,12 @@ hr {
   margin-bottom: 3px;
 }
 
+.grid .pane .droptextMicro {
+  font-size: 0.7em;
+  margin-bottom: 5px;
+  vertical-align: top;
+}
+
 .grid .pane .flexrow {
   display: flex;
   flex-direction: row;
@@ -136,4 +142,10 @@ hr {
 .email {
   background-color: rgb(223, 223, 223);
   padding: 0 0.2em 0 0.2em;
+}
+
+details > summary {
+  cursor: pointer;
+  color: rgb(75, 75, 75);
+  padding-left: 2px;
 }
