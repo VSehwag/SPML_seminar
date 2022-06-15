@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://vsehwag.github.io/SPML_seminar/sitemap.xml
