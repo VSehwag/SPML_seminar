@@ -337,7 +337,7 @@
 
         <div class="talk grid">
           <div class="pane leftPane">
-            <img src="./assets/speakers/chuan_headshot.png" />
+            <img src="./assets/speakers/chuan_headshot.jpeg" />
           </div>
           <div class="pane rightPane">
             <div class="date">
@@ -349,8 +349,12 @@
               >
               <span class="affiliation">(Meta AI)</span>
             </div>
-            <div class="title">Talk title: TBD</div>
-            <div class="droptext">Abstract & Bio</div>
+            <div class="title">Bounding Training Data Reconstruction in Private (Deep) Learning</div>
+            <details>
+              <summary><span class="droptext">Abstract & Bio</span></summary>
+              <p><strong>Abstract:</strong> Differential privacy is widely accepted as the de facto method for preventing data leakage in ML, and conventional wisdom suggests that it offers strong protection against privacy attacks. However, existing semantic guarantees for DP focus on membership inference, which may overestimate the adversary's capabilities and is not applicable when membership status itself is non-sensitive. In this talk, we derive the first semantic guarantees for DP mechanisms against training data reconstruction attacks under a formal threat model. We show that two distinct privacy accounting methods -- Rényi differential privacy and Fisher information leakage -- both offer strong semantic protection against data reconstruction attacks.</p>
+              <p><strong>Bio:</strong> Chuan Guo is a Research Scientist on the Fundamental AI Research (FAIR) team at Meta. He received his PhD from Cornell University, and his M.S. and B.S. degrees in computer science and mathematics from the University of Waterloo in Canada. His research interests lie in machine learning privacy and security, with recent works centering around the subjects of privacy-preserving machine learning, federated learning, and adversarial robustness. In particular, his work on privacy accounting using Fisher information leakage received the Best Paper Award at UAI in 2021.</p>
+            </details>
             <!-- <div class="flexrow">
               <a href="" target="_blank"
                 ><div class="friterm">
@@ -400,6 +404,43 @@
             </div> -->
           </div>
         </div>
+
+        <div class="talk grid">
+          <div class="pane leftPane">
+            <img src="./assets/speakers/alfred_headshot.jpg" />
+          </div>
+          <div class="pane rightPane">
+            <div class="date">
+              02 Aug 2022
+            </div>
+            <div class="name">
+              <a href="https://sohamde.github.io/" target="_blank"
+                ><b>Alfred Chen</b></a>
+              <span class="affiliation">(University of California, Irvine)</span>
+            </div>
+            <div class="title">On the Semantic AI Security in CPS: The Case of Autonomous Driving</div>
+            <details>
+              <summary><span class="droptext">Abstract & Bio</span></summary>
+              <p><strong>Abstract:</strong> Recent years have witnessed a global phenomenon in the real-world development, testing, deployment, and commercialization of AI-enabled Cyber-Physical Systems (CPSs) such as autonomous driving cars, drones, industrial and home robots. These systems are rapidly revolutionizing a wide range of industries today, from transportation, retail, and logistics (e.g., robo-taxi, autonomous truck, delivery drones/robots), to domotics, manufacturing, construction,and healthcare. In such systems, the AI stacks are in charge of highly safety- and mission-critical decision-making processes such as obstacle avoidance and lane-keeping, which makes their security more critical than ever. Meanwhile, since these AI algorithms are only components of the entire CPS system enclosing them, their security issues are only meaningful when studied with direct integration of the semantic CPS problem context, which forms what we call the “semantic AI security” problem space and introduces various new AI security research challenges. </p>
+              
+              <p>In this talk, I will focus on our recent efforts on the semantic AI security in one of the most safety-critical and fastest-growing AI-enabled CPS today, Autonomous Driving (AD) systems. Specifically, we performed the first security analysis on a wide range of critical AI components in industry-grade AD systems such as 3D perception, sensor fusion, lane detection, localization, prediction, and planning, and in this talk I will describe our key findings and also how we address the corresponding semantic AI security research challenges. I will conclude with a recent systemization of knowledge (SoK) we performed for this growing research space, with a specific emphasis on the most critical scientific gap we observed and our solution proposal.</p>
+              <p><strong>Bio:</strong> Alfred Chen is an Assistant Professor of Computer Science at University of California, Irvine. His research interest spans AI security, systems security, and network security. His most recent research focuses are AI security in autonomous driving and intelligent transportation. His works have high impacts in both academic and industry with 30+ research papers in top-tier venues across security, mobile systems, transportation, software engineering, and machine learning; a nationwide USDHS US-CERT alert, multiple CVEs; 50+ news coverage by major media such as Forbes, Fortune, and BBC; and vulnerability report acknowledgments from USDOT, Apple, Microsoft, etc. Recently, his research triggered 30+ autonomous driving companies and the V2X standardization workgroup to start security vulnerability investigations; some confirmed to work on fixes. He co-founded the AutoSec workshop (co-located with NDSS), and co-created DEF CON’s first AutoDriving-themed hacking competition. He received various awards such as NSF CAREER Award, ProQuest Distinguished Dissertation Award, and UCI Chancellor’s Award for mentoring. Chen received Ph.D. from University of Michigan in 2018.</p>
+            </details>
+            <!-- <div class="flexrow">
+              <a href="" target="_blank"
+                ><div class="friterm">
+                  Zoom link: <i class="fa fa-video-camera zoom icon"></i>
+                </div>
+              </a>
+              <a href="./assets/dummy.html" target="_blank"
+                ><div class="friterm">
+                  Recording:
+                  <i class="fa fa-brands fa-youtube-play youtube icon"></i>
+                </div>
+              </a>
+            </div> -->
+          </div>
+        </div>
       </div>
 
       <p>
@@ -408,7 +449,7 @@
         <a href="https://cihangxie.github.io/">Cihang Xie </a>(UCSC), and
         <a href="https://jamiehay.es/">Jamie Hayes </a>(Deepmind)
         <br />
-        <b>Advisory committe:</b>
+        <b>Advisory committee:</b>
         <a href="https://www.princeton.edu/~pmittal/">Prateek Mittal</a>
         (Princeton), <a href="https://www.comp.nus.edu.sg/~reza/">Reza Shokri</a> (NUS)
       </p>
