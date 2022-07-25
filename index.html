@@ -387,21 +387,27 @@
             >
               <span class="affiliation">(Deepmind)</span>
             </div>
-            <div class="title">Talk title: TBD</div>
-            <div class="droptext">Abstract & Bio</div>
-            <!-- <div class="flexrow">
-              <a href="" target="_blank"
+            <div class="title">Talk title: Unlocking High-Accuracy Differentially Private Image Classification through Scale</div>
+            <details>
+              <summary><span class="droptext">Abstract & Bio</span></summary>
+              <p><strong>Abstract:</strong> Differential Privacy (DP) provides a formal privacy guarantee preventing adversaries with access to a machine learning model from extracting information about individual training points. Differentially Private Stochastic Gradient Descent (DP-SGD), the most popular DP training method, realizes this protection by injecting noise during training. However previous works have found that DP-SGD often leads to a significant degradation in performance on standard image classification benchmarks. Furthermore, some authors have postulated that DP-SGD inherently performs poorly on large models, since the norm of the noise required to preserve privacy is proportional to the model dimension. In this talk, we will describe our recent paper where we demonstrate that DP-SGD on over-parameterized models can perform significantly better than previously thought. Combining careful hyper-parameter tuning with simple techniques to ensure signal propagation and improve the convergence rate, we achieve 81.4% test accuracy on CIFAR-10 under (8, 10^(-5))-DP using a 40-layer Wide-ResNet, improving over the previous best result of 71.7%. When fine-tuning a pre-trained Normalizer-Free Network, we achieve 86.7% top-1 accuracy on ImageNet under (8, 8x10^(-7))-DP, markedly exceeding the previous best of 47.9% under a larger privacy budget of (10, 10^(-6))-DP.</p>
+              <p><strong>Bio:</strong> Soham De is a Senior Research Scientist at DeepMind in London. He is interested in better understanding and improving large-scale deep learning, and currently works on optimization and initialization. Prior to joining DeepMind, he received his PhD from the Department of Computer Science at the University of Maryland, where he worked on stochastic optimization theory and game theory.</p>
+              <p>Leonard Berrada is a research scientist at DeepMind. His research interests span optimization, deep learning, verification and privacy, and lately he has been particularly interested in making differentially private training to work well with neural networks. Leonard completed his PhD in 2020 at the University of Oxford, under the supervision of M. Pawan Kumar and Andrew Zisserman. He holds an M.Eng. from University of California, Berkeley, an M.S. from Ecole Centrale-Supelec, and B.S. from University Paris-Sud and Ecole Centrale-Supelec.</p>
+            </details>
+
+            <div class="flexrow">
+              <a href="https://princeton.zoom.us/j/92462367552" target="_blank"
                 ><div class="friterm">
                   Zoom link: <i class="fa fa-video-camera zoom icon"></i>
                 </div>
               </a>
               <a href="./assets/dummy.html" target="_blank"
                 ><div class="friterm">
-                  Recording:
-                  <i class="fa fa-brands fa-youtube-play youtube icon"></i>
+                  <!-- Recording:
+                  <i class="fa fa-brands fa-youtube-play youtube icon"></i> -->
                 </div>
               </a>
-            </div> -->
+            </div>
           </div>
         </div>
 
