@@ -1,473 +1,597 @@
 <!DOCTYPE html>
 <!-- TODO: Add google analytics. -->
 <html>
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-99ZPPJ0J6N"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-99ZPPJ0J6N');
-    </script>
-    <meta charset="utf-8" />
-    <title>Seminars on Security & Privacy in Machine Learning (SPML)</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/main.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="logo">
-        <img src="./assets/logo.png" />
-        <hr />
-      </div>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-99ZPPJ0J6N"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-      <h2>About the seminar series</h2>
-      <!-- <p>
+    gtag('config', 'G-99ZPPJ0J6N');
+  </script>
+  <meta charset="utf-8" />
+  <title>Seminars on Security & Privacy in Machine Learning (SPML)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="./assets/logo.png" />
+      <hr />
+    </div>
+
+    <h2>About the seminar series</h2>
+    <!-- <p>
         If you looking for an online seminar for the latest updates on security
         & privacy research in Machine learning, then you have come to the right
         place.
       </p> -->
 
-      <p>
-        The motivation for the seminar is to build a platform to discuss and
-        disseminate the progress made by the community in solving some of the
-        core challenges. We intend to host weekly talks from leading researchers
-        in both academia and industry. Each session will be split into a talk
-        (40 mins) followed by a Q&A + short discussion session (20 mins).
-      </p>
+    <p>
+      The motivation for the seminar is to build a platform to discuss and
+      disseminate the progress made by the community in solving some of the
+      core challenges. We intend to host weekly talks from leading researchers
+      in both academia and industry. Each session will be split into a talk
+      (40 mins) followed by a Q&A + short discussion session (20 mins).
+    </p>
 
-      <p>
-        <b
-          ><span class="colored">Timing:</span> Every Tuesday at 1pm Eastern
-          Time (Virtual talks)</b
-        >
-      </p>
+    <p>
+      <b><span class="colored">Timing:</span> Every Tuesday at 1pm Eastern
+        Time (Virtual talks)</b>
+    </p>
 
-      <p>
-        We recommend following two steps to get details about talks (including
-        zoom links):
-        <ul>
-          <li>
-            <b>Step-1:</b> <em>Join the mailing list</em> (<a
-              href="https://groups.google.com/forum/#!forum/spml-seminars/join"
-              target="_blank"
-              ><b>here</b></a
-            >) to receive regular updates.
-          </li>
-          <li>
-            <b>Step-2:</b> <em>Sync SPML calendar</em> (<a
-              href="https://calendar.google.com/calendar/u/0?cid=N2FwbTVxYzJsOGM2bXBiNGY4am1oMjNsdGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
-              target="_blank"
-              ><b>here</b></a
-            >) to never miss a talk.
-          </li>
-        </ul>
-      </p>
+    <p>
+      We recommend following two steps to get details about talks (including
+      zoom links):
+    <ul>
+      <li>
+        <b>Step-1:</b> <em>Join the mailing list</em> (<a
+          href="https://groups.google.com/forum/#!forum/spml-seminars/join" target="_blank"><b>here</b></a>) to receive
+        regular updates.
+      </li>
+      <li>
+        <b>Step-2:</b> <em>Sync SPML calendar</em> (<a
+          href="https://calendar.google.com/calendar/u/0?cid=N2FwbTVxYzJsOGM2bXBiNGY4am1oMjNsdGNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
+          target="_blank"><b>here</b></a>) to never miss a talk.
+      </li>
+    </ul>
+    </p>
 
-      <!-- <p>
+    <!-- <p>
         Only following speaker's consideration, we will be able to make the
         recording public after tha talk, thus we highly recommend attending
         them.
       </p> -->
 
-      <h2>Upcoming talks</h2>
-      <!-- TODO: Set up way to add talk to calendar. Find a way to highlight next talk. -->
-      <div class="talks">
-        <div class="talk grid">
-          <div class="pane leftPane">
-            <img src="./assets/speakers/tom_headshot.jpeg" />
-          </div>
-          <div class="pane rightPane">
-            <div class="date">
-              07 June 2022
-              <!-- <div id="clock_tom" class="clock">
+    <h2>Upcoming talks</h2>
+    <!-- TODO: Set up way to add talk to calendar. Find a way to highlight next talk. -->
+    <div class="talks">
+      <div class="talk grid">
+        <div class="pane leftPane">
+          <img src="./assets/speakers/tom_headshot.jpeg" />
+        </div>
+        <div class="pane rightPane">
+          <div class="date">
+            07 June 2022
+            <!-- <div id="clock_tom" class="clock">
                 (
                 <div><span class="days"></span> days</div>
                 <div><span class="hours"></span> hrs</div>
                 )
               </div> -->
-            </div>
-            <div class="name">
-              <a href="http://www.cs.umd.edu/~tomg/" target="_blank"
-                ><b>Tom Goldstein</b></a
-              >
-              <span class="affiliation">(University of Maryland)</span>
-            </div>
-            <div class="title">Just how private is federated learning?</div>
-            <details>
-              <summary><span class="droptext">Abstract & Bio</span></summary>
-              <p><strong>Abstract:</strong> Federated learning is often touted as a training paradigm that preserves user privacy.  In this talk, I’ll discuss ways that federated protocols leak user information, and ways that malicious actors can exploit federated protocols to scrape information from
-                users.  If time permits, I’ll also discuss how recent advances in data poisoning can manipulate datasets to preserve privacy by preventing data from being used for model training.</p>
-              <p><strong>Bio:</strong> Tom Goldstein is the Perotto Associate Professor of Computer Science at the University of Maryland.  His research lies at the intersection of machine learning and optimization, and targets applications in computer vision and signal processing. Before joining
-                the faculty at Maryland, Tom completed his PhD in Mathematics at UCLA, and was a research scientist at Rice University and Stanford University. Professor Goldstein has been the recipient of several awards, including SIAM’s DiPrima Prize, a DARPA Young Faculty
-                Award, a JP Morgan Faculty award, and a Sloan Fellowship.</p>
-            </details>
-            <div class="flexrow">
-              <a href="https://princeton.zoom.us/j/95819003743" target="_blank"
-                ><div class="friterm">
-                  Zoom link: <i class="fa fa-video-camera zoom icon"></i>
-                </div>
-              </a>
-              <a href="https://youtu.be/jiLg5HG3hMk" target="_blank"
-                ><div class="friterm">
-                  Recording:
-                  <i class="fa fa-brands fa-youtube-play youtube icon"></i>
-                </div>
-              </a>
-            </div>
           </div>
-        </div>
-
-        <div class="talk grid">
-          <div class="pane leftPane">
-            <img src="./assets/speakers/bo_li_headshot.png" />
+          <div class="name">
+            <a href="http://www.cs.umd.edu/~tomg/" target="_blank"><b>Tom Goldstein</b></a>
+            <span class="affiliation">(University of Maryland)</span>
           </div>
-          <div class="pane rightPane">
-            <div class="date">
-              14 June 2022
-              <!-- <div id="clock_bo" class="clock">
-                (
-                <div><span class="days"></span> days</div>
-                <div><span class="hours"></span> hrs</div>
-                )
-              </div> -->
-            </div>
-            <div class="name">
-              <a
-                href="https://aisecure.github.io/"
-                target="_blank"
-                ><b>Bo Li</b></a
-              >
-              <span class="affiliation"
-                >(University of Illinois Urbana-Champaign)</span
-              >
-            </div>
-            <div class="title">Trustworthy Machine Learning: Robustness, Privacy, Generalization, and their Interconnections</div>
-            <details>
-              <summary><span class="droptext">Abstract & Bio</span></summary>
-              <p><strong>Abstract:</strong> Advances in machine learning have led to the rapid and widespread deployment of
-                learning based methods in safety-critical applications, such as autonomous driving and
-                medical healthcare. Standard machine learning systems, however, assume that training
-                and test data follow the same, or similar, distributions, without explicitly considering
-                active adversaries manipulating either distribution. For instance, recent work has
-                demonstrated that motivated adversaries can circumvent anomaly detection or other
-                machine learning models at test-time through evasion attacks, or can inject well-crafted
-                malicious instances into training data to induce errors during inference through poisoning
-                attacks. Such distribution shift could also lead to other trustworthiness issues such as
-                generalization. In this talk, I will describe different perspectives of trustworthy machine
-                learning, such as robustness, privacy, generalization, and their underlying
-                interconnections. I will focus on a certifiably robust learning approach based on statistical
-                learning with logical reasoning as an example, and then discuss the principles towards
-                designing and developing practical trustworthy machine learning systems with
-                guarantees, by considering these trustworthiness perspectives in a holistic view.</p>
-              <p><strong>Bio:</strong> Dr. Bo Li is an assistant professor in the Department of Computer Science at the
-                University of Illinois at Urbana–Champaign. She is the recipient of the MIT Technology
-                Review TR-35 Award, Alfred P. Sloan Research Fellowship, NSF CAREER Award,
-                IJCAI Computer and Thought Award, Dean's Award for Excellence in Research, C.W.
-                Gear Outstanding Junior Faculty Award, Intel Rising Star award, Symantec Research
-                Labs Fellowship, Rising Star Award, Research Awards from Tech companies such as
-                Amazon, Facebook, Intel, and IBM, and best paper awards at several top machine
-                learning and security conferences. Her research focuses on both theoretical and practical
-                aspects of trustworthy machine learning, security, machine learning, privacy, and game
-                theory. She has designed several scalable frameworks for trustworthy machine learning
-                and privacy-preserving data publishing systems. Her work has been featured by major
-                publications and media outlets such as Nature, Wired, Fortune, and New York Times.</p>
-            </details>
-            <div class="flexrow">
-              <a href="https://princeton.zoom.us/j/97905349789" target="_blank"
-                ><div class="friterm">
-                  Zoom link: <i class="fa fa-video-camera zoom icon"></i>
-                </div>
-              </a>
-              <a href="https://youtu.be/EKyr0tF6lOQ" target="_blank"
-                ><div class="friterm">
-                  Recording:
-                  <i class="fa fa-brands fa-youtube-play youtube icon"></i>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="talk grid">
-          <div class="pane leftPane">
-            <img src="./assets/speakers/ben_zhao_headshot.png" />
-          </div>
-          <div class="pane rightPane">
-            <div class="date">
-              21 June 2022
-              <!-- <div id="clock_ben" class="clock">
-                (
-                <div><span class="days"></span> days</div>
-                <div><span class="hours"></span> hrs</div>
-                )
-              </div> -->
-            </div>
-            <div class="name">
-              <a
-                href="https://people.cs.uchicago.edu/~ravenben/"
-                target="_blank"
-                ><b>Ben Y. Zhao</b></a
-              >
-              <span class="affiliation">(University of Chicago)</span>
-            </div>
-            <div class="title">Adversarial Robustness and Forensics in Deep Neural Networks</div>
-            <details>
-              <summary><span class="droptext">Abstract & Bio</span></summary>
-              <p><strong>Abstract:</strong> Despite their tangible impact on a wide range of real world applications, deep neural networks are known to be vulnerable to numerous attacks, including inference time attacks based on adversarial perturbations, as well as training time attacks such as backdoors. The security community has done extensive work to explore both attacks and defenses, only to produce a seemingly endless cat-and-mouse game.</p>
-              <p>
-              In this talk, I will talk about some of our recent work into adversarial robustness for DNNs, with a focus on ML digital forensics. I start by summarizing some of our recent projects at UChicago SAND Lab covering both sides of the attack/defense struggle, including honeypot defenses (CCS 2020) and physical domain poison attacks (CVPR 2021). Our  experiences in these projects motivated us to seek a broader, more realistic view towards adversarial robustness, beyond the current static, binary views of attack and defense. Like real world security systems, we take a pragmatic view that given sufficient incentive and resources, attackers will eventually succeed in compromising DNN systems. Just as in traditional security realms, digital forensics tools can serve dual purposes: identifying the sources of the compromise so that they can be mitigated, while also providing a strong deterrent against future attackers.  I will present results from our first paper in this space (Usenix Security 2022), specifically addressing forensics for poisoning attacks against DNNs, and show how we can trace back corrupted models to specific subsets of training data responsible for the corruption. Our approach builds up on ideas from model unlearning, and succeeds with high precision/recall for both dirty- and clean-label attacks.
-              </p>
-              <p><strong>Bio:</strong> Ben Zhao is Neubauer Professor of Computer Science at University of Chicago. Prior to joining UChicago, he held the position of Professor of Computer Science at UC Santa Barbara. He completed his Ph.D. at U.C. Berkeley (2004), and B.S. from Yale (1997). He is an ACM Fellow, and a recipient of the NSF CAREER award, MIT Technology Review's TR-35 Award (Young Innovators Under 35), ComputerWorld Magazine's Top 40 Technology Innovators award, IEEE ITC Early Career Award, and Google Faculty awards. His work has been covered by media outlets such as New York Times, Boston Globe, LA Times, MIT Tech Review, Wall Street Journal, Forbes, Fortune, CNBC, MSNBC, New Scientist, and Slashdot.  He has published extensively in areas of security and privacy, machine learning, networking, and HCI. He served as TPC (co)chair for the World Wide Web conference (WWW 2016) and ACM Internet Measurement Conference (IMC 2018). He also serves on the steering committee for HotNets, and was general co-chair for HotNets 2020. </p>
-            </details>
-            <div class="flexrow">
-              <a href="https://princeton.zoom.us/j/93579877646" target="_blank"
-                ><div class="friterm">
-                  Zoom link: <i class="fa fa-video-camera zoom icon"></i>
-                </div>
-              </a>
-              <a href="https://youtu.be/dXCRrOJvz1Y" target="_blank"
-                ><div class="friterm">
-                  Recording:
-                  <i class="fa fa-brands fa-youtube-play youtube icon"></i>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="talk grid">
-          <div class="pane leftPane">
-            <img src="./assets/speakers/kamalika_headshot.jpeg" />
-          </div>
-          <div class="pane rightPane">
-            <div class="date">
-              28 June 2022
-              <!-- <div id="clock_kam" class="clock">
-                (
-                <div><span class="days"></span> days</div>
-                <div><span class="hours"></span> hrs</div>
-                )
-              </div> -->
-            </div>
-            <div class="name">
-              <a href="https://cseweb.ucsd.edu/~kamalika/" target="_blank"
-                ><b>Kamalika Chaudhuri</b></a
-              >
-              <span class="affiliation">(UCSD)</span>
-            </div>
-            <div class="title">Beyond Differential Privacy: Two Case Studies in Private Data Analysis</div>
-            <details>
-              <summary><span class="droptext">Abstract & Bio</span></summary>
-              <p><strong>Abstract:</strong> Differential privacy has emerged as the gold standard in private data analysis. However, there are some use-cases where it does not directly apply. In this talk, we will look at two such use-cases and the challenges that they pose. The first is privacy of language representations, where we offer sentence-level privacy and propose a new mechanism which uses public data to maintain high fidelity. The second is privacy of location traces, where we use Gaussian process priors to model correlations in location trajectory data, and offer privacy against an inferential adversary. </p>
-              <p>
-              Joint work with Casey Meehan and Khalil Mrini
-              </p>
-              <!-- <p><strong>Bio:</strong> </p> -->
-            </details>
-            <div class="flexrow">
-              <a href="https://princeton.zoom.us/j/94213238399" target="_blank"
-                ><div class="friterm">
-                  Zoom link: <i class="fa fa-video-camera zoom icon"></i>
-                </div>
-              </a>
-              <a href="https://youtu.be/lMqxT3Cr-FA" target="_blank"
-                ><div class="friterm">
-                  Recording:
-                  <i class="fa fa-brands fa-youtube-play youtube icon"></i>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="talk grid">
-          <div class="pane leftPane">
-            <img src="./assets/speakers/alex_headshot.jpeg" />
-          </div>
-          <div class="pane rightPane">
-            <div class="date">
-              05 July 2022
-              <!-- <div id="clock_alex" class="clock">
-                (
-                <div><span class="days"></span> days</div>
-                <div><span class="hours"></span> hrs</div>
-                )
-              </div> -->
-            </div>
-            <div class="name">
-              <a href="https://alexandresablayrolles.github.io/" target="_blank"
-                ><b>Alexandre Sablayrolles</b></a
-              >
-              <span class="affiliation">(Meta AI)</span>
-            </div>
-            <div class="title">Optimal Membership Inference Bounds in DP-SGD</div>
-            <details>
-              <summary><span class="droptext">Abstract & Bio</span></summary>
-              <p><strong>Abstract:</strong> Given a trained model and a data sample, membership-inference (MI) attacks predict whether the sample was in the model's training set. A common countermeasure against MI attacks is to utilize differential privacy (DP) during model training to mask the presence of individual examples. While this use of DP is a principled approach to limit the efficacy of MI attacks, there is a gap between the bounds provided by DP and the empirical performance of MI attacks. In this paper, we derive bounds for the advantage of an adversary mounting a MI attack, and demonstrate tightness for the widely-used Gaussian mechanism.</p>
-              <p><strong>Bio:</strong> Alexandre Sablayrolles is a Research Scientist at Meta AI in Paris, working on the privacy and security of machine learning systems. He received his PhD from Université Grenoble Alpes in 2020, following a joint CIFRE program with Facebook AI.  Prior to that, he completed his Master's degree in Data Science at NYU, and received a B.S. and M.S. in Applied Mathematics and Computer Science from École Polytechnique. Alexandre's research interests include privacy and security, computer vision, and applications of deep learning.</p>
-            </details>
-            <div class="flexrow">
-              <a href="https://ucsc.zoom.us/j/95083077513?pwd=Y0JmN3hNc05Rb2MrSFp3QjhKMmx5QT09" target="_blank"
-                ><div class="friterm">
-                  Zoom link: <i class="fa fa-video-camera zoom icon"></i>
-                </div>
-              </a>
-              <a href="https://youtu.be/vgIRtZeU06c" target="_blank"
-                ><div class="friterm">
-                  Recording:
-                  <i class="fa fa-brands fa-youtube-play youtube icon"></i>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="talk grid">
-          <div class="pane leftPane">
-            <img src="./assets/speakers/chuan_headshot.jpeg" />
-          </div>
-          <div class="pane rightPane">
-            <div class="date">
-              12 July 2022
-            </div>
-            <div class="name">
-              <a href="https://sites.google.com/view/chuanguo" target="_blank"
-                ><b>Chuan Guo</b></a
-              >
-              <span class="affiliation">(Meta AI)</span>
-            </div>
-            <div class="title">Bounding Training Data Reconstruction in Private (Deep) Learning</div>
-            <details>
-              <summary><span class="droptext">Abstract & Bio</span></summary>
-              <p><strong>Abstract:</strong> Differential privacy is widely accepted as the de facto method for preventing data leakage in ML, and conventional wisdom suggests that it offers strong protection against privacy attacks. However, existing semantic guarantees for DP focus on membership inference, which may overestimate the adversary's capabilities and is not applicable when membership status itself is non-sensitive. In this talk, we derive the first semantic guarantees for DP mechanisms against training data reconstruction attacks under a formal threat model. We show that two distinct privacy accounting methods -- Rényi differential privacy and Fisher information leakage -- both offer strong semantic protection against data reconstruction attacks.</p>
-              <p><strong>Bio:</strong> Chuan Guo is a Research Scientist on the Fundamental AI Research (FAIR) team at Meta. He received his PhD from Cornell University, and his M.S. and B.S. degrees in computer science and mathematics from the University of Waterloo in Canada. His research interests lie in machine learning privacy and security, with recent works centering around the subjects of privacy-preserving machine learning, federated learning, and adversarial robustness. In particular, his work on privacy accounting using Fisher information leakage received the Best Paper Award at UAI in 2021.</p>
-            </details>
-            <div class="flexrow">
-              <a href="https://ucsc.zoom.us/j/95686412277?pwd=S25QendPODg2QW9BZTYrOThYQmRhZz09" target="_blank"
-                ><div class="friterm">
-                  Zoom link: <i class="fa fa-video-camera zoom icon"></i>
-                </div>
-              </a>
-              <a href="./assets/dummy.html" target="_blank"
-                ><div class="friterm">
-                  <!-- Recording:
-                  <i class="fa fa-brands fa-youtube-play youtube icon"></i> -->
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="talk grid">
-          <div class="pane leftPane">
-            <img src="./assets/speakers/leonard_soham_gif.gif" />
-          </div>
-          <div class="pane rightPane">
-            <div class="date">
-              26 July 2022
-            </div>
-            <div class="name">
-              <a href="https://sohamde.github.io/" target="_blank"
-                ><b>Soham De</b></a
-              > and <a href="https://lberrada.github.io/" target="_blank"
-              ><b>Leonard Berrada</b></a
-            >
-              <span class="affiliation">(Deepmind)</span>
-            </div>
-            <div class="title">Talk title: Unlocking High-Accuracy Differentially Private Image Classification through Scale</div>
-            <details>
-              <summary><span class="droptext">Abstract & Bio</span></summary>
-              <p><strong>Abstract:</strong> Differential Privacy (DP) provides a formal privacy guarantee preventing adversaries with access to a machine learning model from extracting information about individual training points. Differentially Private Stochastic Gradient Descent (DP-SGD), the most popular DP training method, realizes this protection by injecting noise during training. However previous works have found that DP-SGD often leads to a significant degradation in performance on standard image classification benchmarks. Furthermore, some authors have postulated that DP-SGD inherently performs poorly on large models, since the norm of the noise required to preserve privacy is proportional to the model dimension. In this talk, we will describe our recent paper where we demonstrate that DP-SGD on over-parameterized models can perform significantly better than previously thought. Combining careful hyper-parameter tuning with simple techniques to ensure signal propagation and improve the convergence rate, we achieve 81.4% test accuracy on CIFAR-10 under (8, 10^(-5))-DP using a 40-layer Wide-ResNet, improving over the previous best result of 71.7%. When fine-tuning a pre-trained Normalizer-Free Network, we achieve 86.7% top-1 accuracy on ImageNet under (8, 8x10^(-7))-DP, markedly exceeding the previous best of 47.9% under a larger privacy budget of (10, 10^(-6))-DP.</p>
-              <p><strong>Bio:</strong> Soham De is a Senior Research Scientist at DeepMind in London. He is interested in better understanding and improving large-scale deep learning, and currently works on optimization and initialization. Prior to joining DeepMind, he received his PhD from the Department of Computer Science at the University of Maryland, where he worked on stochastic optimization theory and game theory.</p>
-              <p>Leonard Berrada is a research scientist at DeepMind. His research interests span optimization, deep learning, verification and privacy, and lately he has been particularly interested in making differentially private training to work well with neural networks. Leonard completed his PhD in 2020 at the University of Oxford, under the supervision of M. Pawan Kumar and Andrew Zisserman. He holds an M.Eng. from University of California, Berkeley, an M.S. from Ecole Centrale-Supelec, and B.S. from University Paris-Sud and Ecole Centrale-Supelec.</p>
-            </details>
-
-            <div class="flexrow">
-              <a href="https://princeton.zoom.us/j/92462367552" target="_blank"
-                ><div class="friterm">
-                  Zoom link: <i class="fa fa-video-camera zoom icon"></i>
-                </div>
-              </a>
-              <a href="https://youtu.be/Q0fjPJthbaI" target="_blank"
-                ><div class="friterm">
-                  Recording:
-                  <i class="fa fa-brands fa-youtube-play youtube icon"></i>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="talk grid">
-          <div class="pane leftPane">
-            <img src="./assets/speakers/alfred_headshot.jpg" />
-          </div>
-          <div class="pane rightPane">
-            <div class="date">
-              02 Aug 2022
-            </div>
-            <div class="name">
-              <a href="https://www.ics.uci.edu/~alfchen/" target="_blank"
-                ><b>Alfred Chen</b></a>
-              <span class="affiliation">(University of California, Irvine)</span>
-            </div>
-            <div class="title">On the Semantic AI Security in CPS: The Case of Autonomous Driving</div>
-            <details>
-              <summary><span class="droptext">Abstract & Bio</span></summary>
-              <p><strong>Abstract:</strong> Recent years have witnessed a global phenomenon in the real-world development, testing, deployment, and commercialization of AI-enabled Cyber-Physical Systems (CPSs) such as autonomous driving cars, drones, industrial and home robots. These systems are rapidly revolutionizing a wide range of industries today, from transportation, retail, and logistics (e.g., robo-taxi, autonomous truck, delivery drones/robots), to domotics, manufacturing, construction,and healthcare. In such systems, the AI stacks are in charge of highly safety- and mission-critical decision-making processes such as obstacle avoidance and lane-keeping, which makes their security more critical than ever. Meanwhile, since these AI algorithms are only components of the entire CPS system enclosing them, their security issues are only meaningful when studied with direct integration of the semantic CPS problem context, which forms what we call the “semantic AI security” problem space and introduces various new AI security research challenges. </p>
-              
-              <p>In this talk, I will focus on our recent efforts on the semantic AI security in one of the most safety-critical and fastest-growing AI-enabled CPS today, Autonomous Driving (AD) systems. Specifically, we performed the first security analysis on a wide range of critical AI components in industry-grade AD systems such as 3D perception, sensor fusion, lane detection, localization, prediction, and planning, and in this talk I will describe our key findings and also how we address the corresponding semantic AI security research challenges. I will conclude with a recent systemization of knowledge (SoK) we performed for this growing research space, with a specific emphasis on the most critical scientific gap we observed and our solution proposal.</p>
-              <p><strong>Bio:</strong> Alfred Chen is an Assistant Professor of Computer Science at University of California, Irvine. His research interest spans AI security, systems security, and network security. His most recent research focuses are AI security in autonomous driving and intelligent transportation. His works have high impacts in both academic and industry with 30+ research papers in top-tier venues across security, mobile systems, transportation, software engineering, and machine learning; a nationwide USDHS US-CERT alert, multiple CVEs; 50+ news coverage by major media such as Forbes, Fortune, and BBC; and vulnerability report acknowledgments from USDOT, Apple, Microsoft, etc. Recently, his research triggered 30+ autonomous driving companies and the V2X standardization workgroup to start security vulnerability investigations; some confirmed to work on fixes. He co-founded the AutoSec workshop (co-located with NDSS), and co-created DEF CON’s first AutoDriving-themed hacking competition. He received various awards such as NSF CAREER Award, ProQuest Distinguished Dissertation Award, and UCI Chancellor’s Award for mentoring. Chen received Ph.D. from University of Michigan in 2018.</p>
-            </details>
-            <div class="flexrow">
-              <a href="https://princeton.zoom.us/j/92903966562" target="_blank"
-                ><div class="friterm">
-                  Zoom link: <i class="fa fa-video-camera zoom icon"></i>
-                </div>
-              </a>
-              <a href="https://youtu.be/knMQ9wNDiHk" target="_blank"
-                ><div class="friterm">
-                  Recording:
-                  <i class="fa fa-brands fa-youtube-play youtube icon"></i>
-                </div>
-              </a>
-            </div>
+          <div class="title">Just how private is federated learning?</div>
+          <details>
+            <summary><span class="droptext">Abstract & Bio</span></summary>
+            <p><strong>Abstract:</strong> Federated learning is often touted as a training paradigm that preserves user
+              privacy. In this talk, I’ll discuss ways that federated protocols leak user information, and ways that
+              malicious actors can exploit federated protocols to scrape information from
+              users. If time permits, I’ll also discuss how recent advances in data poisoning can manipulate datasets to
+              preserve privacy by preventing data from being used for model training.</p>
+            <p><strong>Bio:</strong> Tom Goldstein is the Perotto Associate Professor of Computer Science at the
+              University of Maryland. His research lies at the intersection of machine learning and optimization, and
+              targets applications in computer vision and signal processing. Before joining
+              the faculty at Maryland, Tom completed his PhD in Mathematics at UCLA, and was a research scientist at
+              Rice University and Stanford University. Professor Goldstein has been the recipient of several awards,
+              including SIAM’s DiPrima Prize, a DARPA Young Faculty
+              Award, a JP Morgan Faculty award, and a Sloan Fellowship.</p>
+          </details>
+          <div class="flexrow">
+            <a href="https://princeton.zoom.us/j/95819003743" target="_blank">
+              <div class="friterm">
+                Zoom link: <i class="fa fa-video-camera zoom icon"></i>
+              </div>
+            </a>
+            <a href="https://youtu.be/jiLg5HG3hMk" target="_blank">
+              <div class="friterm">
+                Recording:
+                <i class="fa fa-brands fa-youtube-play youtube icon"></i>
+              </div>
+            </a>
           </div>
         </div>
       </div>
 
-      <p>
-        <b>Organizers:</b>
-        <a href="https://vsehwag.github.io/">Vikash Sehwag</a> (Princeton),
-        <a href="https://cihangxie.github.io/">Cihang Xie </a>(UCSC), and
-        <a href="https://jamiehay.es/">Jamie Hayes </a>(Deepmind)
-        <br />
-        <b>Advisory committee:</b>
-        <a href="https://www.princeton.edu/~pmittal/">Prateek Mittal</a>
-        (Princeton), <a href="https://www.comp.nus.edu.sg/~reza/">Reza Shokri</a> (NUS)
-      </p>
+      <div class="talk grid">
+        <div class="pane leftPane">
+          <img src="./assets/speakers/bo_li_headshot.png" />
+        </div>
+        <div class="pane rightPane">
+          <div class="date">
+            14 June 2022
+            <!-- <div id="clock_bo" class="clock">
+                (
+                <div><span class="days"></span> days</div>
+                <div><span class="hours"></span> hrs</div>
+                )
+              </div> -->
+          </div>
+          <div class="name">
+            <a href="https://aisecure.github.io/" target="_blank"><b>Bo Li</b></a>
+            <span class="affiliation">(University of Illinois Urbana-Champaign)</span>
+          </div>
+          <div class="title">Trustworthy Machine Learning: Robustness, Privacy, Generalization, and their
+            Interconnections</div>
+          <details>
+            <summary><span class="droptext">Abstract & Bio</span></summary>
+            <p><strong>Abstract:</strong> Advances in machine learning have led to the rapid and widespread deployment
+              of
+              learning based methods in safety-critical applications, such as autonomous driving and
+              medical healthcare. Standard machine learning systems, however, assume that training
+              and test data follow the same, or similar, distributions, without explicitly considering
+              active adversaries manipulating either distribution. For instance, recent work has
+              demonstrated that motivated adversaries can circumvent anomaly detection or other
+              machine learning models at test-time through evasion attacks, or can inject well-crafted
+              malicious instances into training data to induce errors during inference through poisoning
+              attacks. Such distribution shift could also lead to other trustworthiness issues such as
+              generalization. In this talk, I will describe different perspectives of trustworthy machine
+              learning, such as robustness, privacy, generalization, and their underlying
+              interconnections. I will focus on a certifiably robust learning approach based on statistical
+              learning with logical reasoning as an example, and then discuss the principles towards
+              designing and developing practical trustworthy machine learning systems with
+              guarantees, by considering these trustworthiness perspectives in a holistic view.</p>
+            <p><strong>Bio:</strong> Dr. Bo Li is an assistant professor in the Department of Computer Science at the
+              University of Illinois at Urbana–Champaign. She is the recipient of the MIT Technology
+              Review TR-35 Award, Alfred P. Sloan Research Fellowship, NSF CAREER Award,
+              IJCAI Computer and Thought Award, Dean's Award for Excellence in Research, C.W.
+              Gear Outstanding Junior Faculty Award, Intel Rising Star award, Symantec Research
+              Labs Fellowship, Rising Star Award, Research Awards from Tech companies such as
+              Amazon, Facebook, Intel, and IBM, and best paper awards at several top machine
+              learning and security conferences. Her research focuses on both theoretical and practical
+              aspects of trustworthy machine learning, security, machine learning, privacy, and game
+              theory. She has designed several scalable frameworks for trustworthy machine learning
+              and privacy-preserving data publishing systems. Her work has been featured by major
+              publications and media outlets such as Nature, Wired, Fortune, and New York Times.</p>
+          </details>
+          <div class="flexrow">
+            <a href="https://princeton.zoom.us/j/97905349789" target="_blank">
+              <div class="friterm">
+                Zoom link: <i class="fa fa-video-camera zoom icon"></i>
+              </div>
+            </a>
+            <a href="https://youtu.be/EKyr0tF6lOQ" target="_blank">
+              <div class="friterm">
+                Recording:
+                <i class="fa fa-brands fa-youtube-play youtube icon"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
 
-      <p>
-        You can reach us at
-        <span class="email">vvikash [at] princeton.edu</span> or
-        <span class="email">cihangxie306 [at] gmail.com</span> or
-        <span class="email">jamhay [at] google.com</span> for questions or
-        suggestions related to the seminar.
-      </p>
+      <div class="talk grid">
+        <div class="pane leftPane">
+          <img src="./assets/speakers/ben_zhao_headshot.png" />
+        </div>
+        <div class="pane rightPane">
+          <div class="date">
+            21 June 2022
+            <!-- <div id="clock_ben" class="clock">
+                (
+                <div><span class="days"></span> days</div>
+                <div><span class="hours"></span> hrs</div>
+                )
+              </div> -->
+          </div>
+          <div class="name">
+            <a href="https://people.cs.uchicago.edu/~ravenben/" target="_blank"><b>Ben Y. Zhao</b></a>
+            <span class="affiliation">(University of Chicago)</span>
+          </div>
+          <div class="title">Adversarial Robustness and Forensics in Deep Neural Networks</div>
+          <details>
+            <summary><span class="droptext">Abstract & Bio</span></summary>
+            <p><strong>Abstract:</strong> Despite their tangible impact on a wide range of real world applications, deep
+              neural networks are known to be vulnerable to numerous attacks, including inference time attacks based on
+              adversarial perturbations, as well as training time attacks such as backdoors. The security community has
+              done extensive work to explore both attacks and defenses, only to produce a seemingly endless
+              cat-and-mouse game.</p>
+            <p>
+              In this talk, I will talk about some of our recent work into adversarial robustness for DNNs, with a focus
+              on ML digital forensics. I start by summarizing some of our recent projects at UChicago SAND Lab covering
+              both sides of the attack/defense struggle, including honeypot defenses (CCS 2020) and physical domain
+              poison attacks (CVPR 2021). Our experiences in these projects motivated us to seek a broader, more
+              realistic view towards adversarial robustness, beyond the current static, binary views of attack and
+              defense. Like real world security systems, we take a pragmatic view that given sufficient incentive and
+              resources, attackers will eventually succeed in compromising DNN systems. Just as in traditional security
+              realms, digital forensics tools can serve dual purposes: identifying the sources of the compromise so that
+              they can be mitigated, while also providing a strong deterrent against future attackers. I will present
+              results from our first paper in this space (Usenix Security 2022), specifically addressing forensics for
+              poisoning attacks against DNNs, and show how we can trace back corrupted models to specific subsets of
+              training data responsible for the corruption. Our approach builds up on ideas from model unlearning, and
+              succeeds with high precision/recall for both dirty- and clean-label attacks.
+            </p>
+            <p><strong>Bio:</strong> Ben Zhao is Neubauer Professor of Computer Science at University of Chicago. Prior
+              to joining UChicago, he held the position of Professor of Computer Science at UC Santa Barbara. He
+              completed his Ph.D. at U.C. Berkeley (2004), and B.S. from Yale (1997). He is an ACM Fellow, and a
+              recipient of the NSF CAREER award, MIT Technology Review's TR-35 Award (Young Innovators Under 35),
+              ComputerWorld Magazine's Top 40 Technology Innovators award, IEEE ITC Early Career Award, and Google
+              Faculty awards. His work has been covered by media outlets such as New York Times, Boston Globe, LA Times,
+              MIT Tech Review, Wall Street Journal, Forbes, Fortune, CNBC, MSNBC, New Scientist, and Slashdot. He has
+              published extensively in areas of security and privacy, machine learning, networking, and HCI. He served
+              as TPC (co)chair for the World Wide Web conference (WWW 2016) and ACM Internet Measurement Conference (IMC
+              2018). He also serves on the steering committee for HotNets, and was general co-chair for HotNets 2020.
+            </p>
+          </details>
+          <div class="flexrow">
+            <a href="https://princeton.zoom.us/j/93579877646" target="_blank">
+              <div class="friterm">
+                Zoom link: <i class="fa fa-video-camera zoom icon"></i>
+              </div>
+            </a>
+            <a href="https://youtu.be/dXCRrOJvz1Y" target="_blank">
+              <div class="friterm">
+                Recording:
+                <i class="fa fa-brands fa-youtube-play youtube icon"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="talk grid">
+        <div class="pane leftPane">
+          <img src="./assets/speakers/kamalika_headshot.jpeg" />
+        </div>
+        <div class="pane rightPane">
+          <div class="date">
+            28 June 2022
+            <!-- <div id="clock_kam" class="clock">
+                (
+                <div><span class="days"></span> days</div>
+                <div><span class="hours"></span> hrs</div>
+                )
+              </div> -->
+          </div>
+          <div class="name">
+            <a href="https://cseweb.ucsd.edu/~kamalika/" target="_blank"><b>Kamalika Chaudhuri</b></a>
+            <span class="affiliation">(UCSD)</span>
+          </div>
+          <div class="title">Beyond Differential Privacy: Two Case Studies in Private Data Analysis</div>
+          <details>
+            <summary><span class="droptext">Abstract & Bio</span></summary>
+            <p><strong>Abstract:</strong> Differential privacy has emerged as the gold standard in private data
+              analysis. However, there are some use-cases where it does not directly apply. In this talk, we will look
+              at two such use-cases and the challenges that they pose. The first is privacy of language representations,
+              where we offer sentence-level privacy and propose a new mechanism which uses public data to maintain high
+              fidelity. The second is privacy of location traces, where we use Gaussian process priors to model
+              correlations in location trajectory data, and offer privacy against an inferential adversary. </p>
+            <p>
+              Joint work with Casey Meehan and Khalil Mrini
+            </p>
+            <!-- <p><strong>Bio:</strong> </p> -->
+          </details>
+          <div class="flexrow">
+            <a href="https://princeton.zoom.us/j/94213238399" target="_blank">
+              <div class="friterm">
+                Zoom link: <i class="fa fa-video-camera zoom icon"></i>
+              </div>
+            </a>
+            <a href="https://youtu.be/lMqxT3Cr-FA" target="_blank">
+              <div class="friterm">
+                Recording:
+                <i class="fa fa-brands fa-youtube-play youtube icon"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="talk grid">
+        <div class="pane leftPane">
+          <img src="./assets/speakers/alex_headshot.jpeg" />
+        </div>
+        <div class="pane rightPane">
+          <div class="date">
+            05 July 2022
+            <!-- <div id="clock_alex" class="clock">
+                (
+                <div><span class="days"></span> days</div>
+                <div><span class="hours"></span> hrs</div>
+                )
+              </div> -->
+          </div>
+          <div class="name">
+            <a href="https://alexandresablayrolles.github.io/" target="_blank"><b>Alexandre Sablayrolles</b></a>
+            <span class="affiliation">(Meta AI)</span>
+          </div>
+          <div class="title">Optimal Membership Inference Bounds in DP-SGD</div>
+          <details>
+            <summary><span class="droptext">Abstract & Bio</span></summary>
+            <p><strong>Abstract:</strong> Given a trained model and a data sample, membership-inference (MI) attacks
+              predict whether the sample was in the model's training set. A common countermeasure against MI attacks is
+              to utilize differential privacy (DP) during model training to mask the presence of individual examples.
+              While this use of DP is a principled approach to limit the efficacy of MI attacks, there is a gap between
+              the bounds provided by DP and the empirical performance of MI attacks. In this paper, we derive bounds for
+              the advantage of an adversary mounting a MI attack, and demonstrate tightness for the widely-used Gaussian
+              mechanism.</p>
+            <p><strong>Bio:</strong> Alexandre Sablayrolles is a Research Scientist at Meta AI in Paris, working on the
+              privacy and security of machine learning systems. He received his PhD from Université Grenoble Alpes in
+              2020, following a joint CIFRE program with Facebook AI. Prior to that, he completed his Master's degree in
+              Data Science at NYU, and received a B.S. and M.S. in Applied Mathematics and Computer Science from École
+              Polytechnique. Alexandre's research interests include privacy and security, computer vision, and
+              applications of deep learning.</p>
+          </details>
+          <div class="flexrow">
+            <a href="https://ucsc.zoom.us/j/95083077513?pwd=Y0JmN3hNc05Rb2MrSFp3QjhKMmx5QT09" target="_blank">
+              <div class="friterm">
+                Zoom link: <i class="fa fa-video-camera zoom icon"></i>
+              </div>
+            </a>
+            <a href="https://youtu.be/vgIRtZeU06c" target="_blank">
+              <div class="friterm">
+                Recording:
+                <i class="fa fa-brands fa-youtube-play youtube icon"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="talk grid">
+        <div class="pane leftPane">
+          <img src="./assets/speakers/chuan_headshot.jpeg" />
+        </div>
+        <div class="pane rightPane">
+          <div class="date">
+            12 July 2022
+          </div>
+          <div class="name">
+            <a href="https://sites.google.com/view/chuanguo" target="_blank"><b>Chuan Guo</b></a>
+            <span class="affiliation">(Meta AI)</span>
+          </div>
+          <div class="title">Bounding Training Data Reconstruction in Private (Deep) Learning</div>
+          <details>
+            <summary><span class="droptext">Abstract & Bio</span></summary>
+            <p><strong>Abstract:</strong> Differential privacy is widely accepted as the de facto method for preventing
+              data leakage in ML, and conventional wisdom suggests that it offers strong protection against privacy
+              attacks. However, existing semantic guarantees for DP focus on membership inference, which may
+              overestimate the adversary's capabilities and is not applicable when membership status itself is
+              non-sensitive. In this talk, we derive the first semantic guarantees for DP mechanisms against training
+              data reconstruction attacks under a formal threat model. We show that two distinct privacy accounting
+              methods -- Rényi differential privacy and Fisher information leakage -- both offer strong semantic
+              protection against data reconstruction attacks.</p>
+            <p><strong>Bio:</strong> Chuan Guo is a Research Scientist on the Fundamental AI Research (FAIR) team at
+              Meta. He received his PhD from Cornell University, and his M.S. and B.S. degrees in computer science and
+              mathematics from the University of Waterloo in Canada. His research interests lie in machine learning
+              privacy and security, with recent works centering around the subjects of privacy-preserving machine
+              learning, federated learning, and adversarial robustness. In particular, his work on privacy accounting
+              using Fisher information leakage received the Best Paper Award at UAI in 2021.</p>
+          </details>
+          <div class="flexrow">
+            <a href="https://ucsc.zoom.us/j/95686412277?pwd=S25QendPODg2QW9BZTYrOThYQmRhZz09" target="_blank">
+              <div class="friterm">
+                Zoom link: <i class="fa fa-video-camera zoom icon"></i>
+              </div>
+            </a>
+            <a href="./assets/no_recording.html" target="_blank">
+              <div class="friterm">
+                Recording:
+                <i class="fa fa-brands fa-youtube-play youtube icon"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="talk grid">
+        <div class="pane leftPane">
+          <img src="./assets/speakers/leonard_soham_gif.gif" />
+        </div>
+        <div class="pane rightPane">
+          <div class="date">
+            26 July 2022
+          </div>
+          <div class="name">
+            <a href="https://sohamde.github.io/" target="_blank"><b>Soham De</b></a> and <a
+              href="https://lberrada.github.io/" target="_blank"><b>Leonard Berrada</b></a>
+            <span class="affiliation">(Deepmind)</span>
+          </div>
+          <div class="title">Talk title: Unlocking High-Accuracy Differentially Private Image Classification through
+            Scale</div>
+          <details>
+            <summary><span class="droptext">Abstract & Bio</span></summary>
+            <p><strong>Abstract:</strong> Differential Privacy (DP) provides a formal privacy guarantee preventing
+              adversaries with access to a machine learning model from extracting information about individual training
+              points. Differentially Private Stochastic Gradient Descent (DP-SGD), the most popular DP training method,
+              realizes this protection by injecting noise during training. However previous works have found that DP-SGD
+              often leads to a significant degradation in performance on standard image classification benchmarks.
+              Furthermore, some authors have postulated that DP-SGD inherently performs poorly on large models, since
+              the norm of the noise required to preserve privacy is proportional to the model dimension. In this talk,
+              we will describe our recent paper where we demonstrate that DP-SGD on over-parameterized models can
+              perform significantly better than previously thought. Combining careful hyper-parameter tuning with simple
+              techniques to ensure signal propagation and improve the convergence rate, we achieve 81.4% test accuracy
+              on CIFAR-10 under (8, 10^(-5))-DP using a 40-layer Wide-ResNet, improving over the previous best result of
+              71.7%. When fine-tuning a pre-trained Normalizer-Free Network, we achieve 86.7% top-1 accuracy on ImageNet
+              under (8, 8x10^(-7))-DP, markedly exceeding the previous best of 47.9% under a larger privacy budget of
+              (10, 10^(-6))-DP.</p>
+            <p><strong>Bio:</strong> Soham De is a Senior Research Scientist at DeepMind in London. He is interested in
+              better understanding and improving large-scale deep learning, and currently works on optimization and
+              initialization. Prior to joining DeepMind, he received his PhD from the Department of Computer Science at
+              the University of Maryland, where he worked on stochastic optimization theory and game theory.</p>
+            <p>Leonard Berrada is a research scientist at DeepMind. His research interests span optimization, deep
+              learning, verification and privacy, and lately he has been particularly interested in making
+              differentially private training to work well with neural networks. Leonard completed his PhD in 2020 at
+              the University of Oxford, under the supervision of M. Pawan Kumar and Andrew Zisserman. He holds an M.Eng.
+              from University of California, Berkeley, an M.S. from Ecole Centrale-Supelec, and B.S. from University
+              Paris-Sud and Ecole Centrale-Supelec.</p>
+          </details>
+
+          <div class="flexrow">
+            <a href="https://princeton.zoom.us/j/92462367552" target="_blank">
+              <div class="friterm">
+                Zoom link: <i class="fa fa-video-camera zoom icon"></i>
+              </div>
+            </a>
+            <a href="https://youtu.be/Q0fjPJthbaI" target="_blank">
+              <div class="friterm">
+                Recording:
+                <i class="fa fa-brands fa-youtube-play youtube icon"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="talk grid">
+        <div class="pane leftPane">
+          <img src="./assets/speakers/alfred_headshot.jpg" />
+        </div>
+        <div class="pane rightPane">
+          <div class="date">
+            02 Aug 2022
+          </div>
+          <div class="name">
+            <a href="https://www.ics.uci.edu/~alfchen/" target="_blank"><b>Alfred Chen</b></a>
+            <span class="affiliation">(University of California, Irvine)</span>
+          </div>
+          <div class="title">On the Semantic AI Security in CPS: The Case of Autonomous Driving</div>
+          <details>
+            <summary><span class="droptext">Abstract & Bio</span></summary>
+            <p><strong>Abstract:</strong> Recent years have witnessed a global phenomenon in the real-world development,
+              testing, deployment, and commercialization of AI-enabled Cyber-Physical Systems (CPSs) such as autonomous
+              driving cars, drones, industrial and home robots. These systems are rapidly revolutionizing a wide range
+              of industries today, from transportation, retail, and logistics (e.g., robo-taxi, autonomous truck,
+              delivery drones/robots), to domotics, manufacturing, construction,and healthcare. In such systems, the AI
+              stacks are in charge of highly safety- and mission-critical decision-making processes such as obstacle
+              avoidance and lane-keeping, which makes their security more critical than ever. Meanwhile, since these AI
+              algorithms are only components of the entire CPS system enclosing them, their security issues are only
+              meaningful when studied with direct integration of the semantic CPS problem context, which forms what we
+              call the “semantic AI security” problem space and introduces various new AI security research challenges.
+            </p>
+
+            <p>In this talk, I will focus on our recent efforts on the semantic AI security in one of the most
+              safety-critical and fastest-growing AI-enabled CPS today, Autonomous Driving (AD) systems. Specifically,
+              we performed the first security analysis on a wide range of critical AI components in industry-grade AD
+              systems such as 3D perception, sensor fusion, lane detection, localization, prediction, and planning, and
+              in this talk I will describe our key findings and also how we address the corresponding semantic AI
+              security research challenges. I will conclude with a recent systemization of knowledge (SoK) we performed
+              for this growing research space, with a specific emphasis on the most critical scientific gap we observed
+              and our solution proposal.</p>
+            <p><strong>Bio:</strong> Alfred Chen is an Assistant Professor of Computer Science at University of
+              California, Irvine. His research interest spans AI security, systems security, and network security. His
+              most recent research focuses are AI security in autonomous driving and intelligent transportation. His
+              works have high impacts in both academic and industry with 30+ research papers in top-tier venues across
+              security, mobile systems, transportation, software engineering, and machine learning; a nationwide USDHS
+              US-CERT alert, multiple CVEs; 50+ news coverage by major media such as Forbes, Fortune, and BBC; and
+              vulnerability report acknowledgments from USDOT, Apple, Microsoft, etc. Recently, his research triggered
+              30+ autonomous driving companies and the V2X standardization workgroup to start security vulnerability
+              investigations; some confirmed to work on fixes. He co-founded the AutoSec workshop (co-located with
+              NDSS), and co-created DEF CON’s first AutoDriving-themed hacking competition. He received various awards
+              such as NSF CAREER Award, ProQuest Distinguished Dissertation Award, and UCI Chancellor’s Award for
+              mentoring. Chen received Ph.D. from University of Michigan in 2018.</p>
+          </details>
+          <div class="flexrow">
+            <a href="https://princeton.zoom.us/j/92903966562" target="_blank">
+              <div class="friterm">
+                Zoom link: <i class="fa fa-video-camera zoom icon"></i>
+              </div>
+            </a>
+            <a href="https://youtu.be/knMQ9wNDiHk" target="_blank">
+              <div class="friterm">
+                Recording:
+                <i class="fa fa-brands fa-youtube-play youtube icon"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="talk grid">
+        <div class="pane leftPane">
+          <img src="./assets/speakers/chaowei_headshot.jpeg" />
+        </div>
+        <div class="pane rightPane">
+          <div class="date">
+            09 Aug 2022
+          </div>
+          <div class="name">
+            <a href="https://xiaocw11.github.io/" target="_blank"><b>Chaowei Xiao</b></a>
+            <span class="affiliation">(Arizona State University + Nvidia Research)</span>
+          </div>
+          <div class="title">Towards Socially Responsible Machine Learning</div>
+          <details>
+            <summary><span class="droptext">Abstract & Bio</span></summary>
+            <p><strong>Bio:</strong> Chaowei Xiao is an assistant professor at Arizona State University and the research
+              scientist at NVIDIA Research. Dr. Xiao received his B.E. degree in School of Software from Tsinghua
+              University in 2015 and Ph.D. degree in Computer Science Department from University of Michigan, Ann Arbor
+              in 2020, respectively. His research interests lie at the intersection of computer security, privacy, and
+              machine learning. His works have been featured in multiple media outlets, including Wired, Fortune, IEEE
+              SPECTRUM. One of his research outputs was on display at the Science Museum in London. He has received the
+              best paper award at Modicum 2014 and ESWN 2021. </p>
+          </details>
+          <div class="flexrow">
+            <a href=" https://princeton.zoom.us/j/95246095419" target="_blank">
+              <div class="friterm">
+                Zoom link: <i class="fa fa-video-camera zoom icon"></i>
+              </div>
+            </a>
+            <a href="https://youtu.be/knMQ9wNDiHk" target="_blank">
+              <!-- <div class="friterm">
+                Recording:
+                <i class="fa fa-brands fa-youtube-play youtube icon"></i>
+              </div> -->
+            </a>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </body>
-  <script src="./css/main.js"></script>
+
+    <p>
+      <b>Organizers:</b>
+      <a href="https://vsehwag.github.io/">Vikash Sehwag</a> (Princeton),
+      <a href="https://cihangxie.github.io/">Cihang Xie </a>(UCSC), and
+      <a href="https://jamiehay.es/">Jamie Hayes </a>(Deepmind)
+      <br />
+      <b>Advisory committee:</b>
+      <a href="https://www.princeton.edu/~pmittal/">Prateek Mittal</a>
+      (Princeton), <a href="https://www.comp.nus.edu.sg/~reza/">Reza Shokri</a> (NUS)
+    </p>
+
+    <p>
+      You can reach us at
+      <span class="email">vvikash [at] princeton.edu</span> or
+      <span class="email">cihangxie306 [at] gmail.com</span> or
+      <span class="email">jamhay [at] google.com</span> for questions or
+      suggestions related to the seminar.
+    </p>
+  </div>
+</body>
+<script src="./css/main.js"></script>
+
 </html>
