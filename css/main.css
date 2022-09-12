@@ -100,6 +100,10 @@ hr {
   margin-bottom: 3px;
 }
 
+.bluetext {
+  color: #2d8cff;
+}
+
 /* .grid .pane .affiliation {
   font-style: italic;
 } */
