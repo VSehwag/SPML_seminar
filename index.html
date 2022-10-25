@@ -79,52 +79,6 @@
     <div class="talks">
       <div class="talk grid">
         <div class="pane leftPane">
-          <img src="./assets/speakers/suman_headshot.jpeg" />
-        </div>
-        <div class="pane rightPane">
-          <div class="date">
-            <span class="bluetext">11 Oct 2022</span>
-          </div>
-          <div class="name">
-            <a href="https://www.cs.columbia.edu/~suman/" target="_blank"><b>
-                Suman Jana</b></a>
-            <span class="affiliation">(Columbia University)</span>
-          </div>
-          <div class="title">Efficient Neural Network Verification using Branch and Bound</div>
-          <details>
-            <summary><span class="droptext">Abstract & Bio</span></summary>
-            <p><strong>Abstract:</strong> In this talk, I will describe two recent Branch and Bound (BaB) verifiers developed by our group to ensure different safety properties of neural networks. The BaB verifiers involve two main steps: (1) recursively splitting the original verification problem into easier independent subproblems by splitting input or hidden neurons;  and (2) for each split subproblem, using fast but incomplete bound propagation techniques to compute sound estimated bounds for the outputs of the target neural network. One of the key limitations of existing BaB verifiers is computing tight relaxations of activation functions' (i.e., ReLU) nonlinearities. Our recent works (α-CROWN and β-CROWN) introduce a primal-dual approach and jointly optimize the corresponding Lagrangian multipliers for each ReLU with gradient ascent. Such an approach is highly parallelizable and avoids calls to expensive LP solvers. Our verifiers not only provide tighter output estimations than existing bound propagation methods but also can fully leverage GPUs with massive parallelization. Our verifier, α, β-CROWN (alpha-beta-CROWN), won the second International Verification of Neural Networks Competition (VNN-COMP 2021) with the highest total score. </p>
-            <p><strong>Bio:</strong> Suman Jana is an associate professor in the department of computer science and the data science institute at Columbia University. His primary research interest is at the intersections of computer security and machine learning. His research has received six best paper awards, a CACM research highlight, a Google faculty fellowship, a JPMorgan Chase Faculty Research Award, an NSF CAREER award, and an ARO young investigator award.</p>
-          </details>
-          <div class="flexrow">
-            <a href="https://princeton.zoom.us/j/91015073398" target="_blank">
-              <div class="friterm">
-                Zoom link: <i class="fa fa-video-camera zoom icon"></i>
-              </div>
-            </a>
-            <a href="" target="_blank">
-              <div class="friterm">
-                <!-- Recording:
-                <i class="fa fa-brands fa-youtube-play youtube icon"></i> -->
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="talk grid">
-        <div class="pane leftPane">
-          <!-- <img src="./assets/speakers/james_headshot.jpeg" /> -->
-        </div>
-        <div class="pane rightPane">
-          <div class="date">
-            18 Oct 2022 - Scheduled Break
-          </div>
-        </div>
-      </div>
-
-      <div class="talk grid">
-        <div class="pane leftPane">
           <img src="./assets/speakers/thashim_headshot.jpeg" />
         </div>
         <div class="pane rightPane">
@@ -136,17 +90,17 @@
               Tatsunori Hashimoto</b></a>
             <span class="affiliation">(Stanford)</span>
           </div>
-          <div class="title">Tbd</div>
+          <div class="title">Enabling practical and trustworthy differential privacy for neural models</div>
           <details>
             <summary><span class="droptext">Abstract & Bio</span></summary>
-            <p><strong>Abstract:</strong> Tbd</p>
-            <!-- <p><strong>Bio:</strong> tbd</p> -->
+            <p><strong>Abstract:</strong> Differential privacy has been the gold privacy guarantee, but adoption has been slow in deep learning due to a perception that privacy and large neural models are incompatible. In this talk, we discuss two important aspects of differentially private deep learning. First, we present recent work on leveraging pre-training to enable differentially private deep neural nets that achieve stringent privacy guarantees and minimal utility losses. Second, we show that these same high-performance private models can be substantially more miscalibrated than their non-private counterparts, and post-hoc recalibration techniques are necessary to ensure that the confidence estimates of these private models can be trusted. Together, these works demonstrate promises and challenges in developing private deep neural networks.</p>
+            <!-- <p><strong>Bio:</strong> Tatsu is currently an assistant professor at the computer science department in Stanford university. His research uses tools from statistics to make machine learning systems more robust and reliable — especially in challenging tasks involving natural language. The goal of his research is to use robustness and worst-case performance as a lens to understand and make progress on several fundamental challenges in machine learning and natural language processing. </p> -->
           </details>
           <div class="flexrow">
-            <a href="" target="_blank">
-              <!-- <div class="friterm">
+            <a href="https://princeton.zoom.us/j/98156497317" target="_blank">
+              <div class="friterm">
                 Zoom link: <i class="fa fa-video-camera zoom icon"></i>
-              </div> -->
+              </div>
             </a>
             <a href="" target="_blank">
               <div class="friterm">
@@ -179,10 +133,10 @@
             <!-- <p><strong>Bio:</strong> tbd</p> -->
           </details>
           <div class="flexrow">
-            <a href="" target="_blank">
-              <!-- <div class="friterm">
+            <a href="https://princeton.zoom.us/j/95124463603" target="_blank">
+              <div class="friterm">
                 Zoom link: <i class="fa fa-video-camera zoom icon"></i>
-              </div> -->
+              </div>
             </a>
             <a href="" target="_blank">
               <div class="friterm">
@@ -960,6 +914,41 @@
               <div class="friterm">
                 Recording:
                 <i class="fa fa-brands fa-youtube-play youtube icon"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="talk grid">
+        <div class="pane leftPane">
+          <img src="./assets/speakers/suman_headshot.jpeg" />
+        </div>
+        <div class="pane rightPane">
+          <div class="date">
+            <span class="bluetext">11 Oct 2022</span>
+          </div>
+          <div class="name">
+            <a href="https://www.cs.columbia.edu/~suman/" target="_blank"><b>
+                Suman Jana</b></a>
+            <span class="affiliation">(Columbia University)</span>
+          </div>
+          <div class="title">Efficient Neural Network Verification using Branch and Bound</div>
+          <details>
+            <summary><span class="droptext">Abstract & Bio</span></summary>
+            <p><strong>Abstract:</strong> In this talk, I will describe two recent Branch and Bound (BaB) verifiers developed by our group to ensure different safety properties of neural networks. The BaB verifiers involve two main steps: (1) recursively splitting the original verification problem into easier independent subproblems by splitting input or hidden neurons;  and (2) for each split subproblem, using fast but incomplete bound propagation techniques to compute sound estimated bounds for the outputs of the target neural network. One of the key limitations of existing BaB verifiers is computing tight relaxations of activation functions' (i.e., ReLU) nonlinearities. Our recent works (α-CROWN and β-CROWN) introduce a primal-dual approach and jointly optimize the corresponding Lagrangian multipliers for each ReLU with gradient ascent. Such an approach is highly parallelizable and avoids calls to expensive LP solvers. Our verifiers not only provide tighter output estimations than existing bound propagation methods but also can fully leverage GPUs with massive parallelization. Our verifier, α, β-CROWN (alpha-beta-CROWN), won the second International Verification of Neural Networks Competition (VNN-COMP 2021) with the highest total score. </p>
+            <p><strong>Bio:</strong> Suman Jana is an associate professor in the department of computer science and the data science institute at Columbia University. His primary research interest is at the intersections of computer security and machine learning. His research has received six best paper awards, a CACM research highlight, a Google faculty fellowship, a JPMorgan Chase Faculty Research Award, an NSF CAREER award, and an ARO young investigator award.</p>
+          </details>
+          <div class="flexrow">
+            <a href="https://princeton.zoom.us/j/91015073398" target="_blank">
+              <div class="friterm">
+                Zoom link: <i class="fa fa-video-camera zoom icon"></i>
+              </div>
+            </a>
+            <a href="" target="_blank">
+              <div class="friterm">
+                <!-- Recording:
+                <i class="fa fa-brands fa-youtube-play youtube icon"></i> -->
               </div>
             </a>
           </div>
